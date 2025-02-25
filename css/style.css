@@ -128,8 +128,13 @@ img {
 	border-radius: 0;
 }
 
+/* Style par défaut des boutons de filtre */
 .nav-pills .nav-link {
-	color: #000
+    color: #000;
+	
+    background-color: transparent;
+    border-radius: 0;
+    margin: 0 1%;
 }
 
 .item-column {
@@ -498,4 +503,10 @@ input[type="submit"] {
 .contact-info .phone-link:hover {
 	text-decoration: underline;
 	/* Soulignement au survol */
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+    color: black;
 }
