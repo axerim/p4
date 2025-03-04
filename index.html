@@ -2,7 +2,8 @@
 <html lang="fr">
 
 <head>
-	<meta name="description" content="Nina Carducci est une photographe basée sur Bordeaux qui propose des services de shooting, de retouches et d'album partout en France">
+	<meta name="description"
+		content="Nina Carducci est une photographe basée sur Bordeaux qui propose des services de shooting, de retouches et d'album partout en France">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./css/style.min.css">
@@ -18,7 +19,7 @@
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script defer src="./scripts/maugallery.min.js"></script>
 	<!-- <script defer src="./scripts/maugallery.js"></script> -->
-	 <script defer src="./scripts/scripts.min.js"></script>
+	<script defer src="./scripts/scripts.min.js"></script>
 	<!-- <script defer src="./scripts/scripts.js"></script> -->
 	<title>site du photographe Nina Carducci</title>
 	<!-- Facebook -->
@@ -34,7 +35,8 @@
 	<meta name="twitter:card" content="site de photographe avec des photos" />
 	<meta name="twitter:site" content="@nina-carducci" />
 	<meta name="twitter:title" content="Nina Carducci" />
-	<meta name="twitter:description" content="Nina Carducci, photographe passionnée, immortalise vos moments de bonheur" />
+	<meta name="twitter:description"
+		content="Nina Carducci, photographe passionnée, immortalise vos moments de bonheur" />
 	<meta name="twitter:image" content="https://axerim.github.io/p4/assets/images/nina.webp" />
 	<meta name="twitter:url" content="https://axerim.github.io/p4/" />
 	<meta name="twitter:creator" content="@nina-carducci" />
@@ -73,8 +75,10 @@
 				"itemListElement": [
 				  {
 					"@type": "Offer",
-					"@type": "Service",
-					"name": "Shooting photo"
+					"itemOffered": {
+					  "@type": "Service",
+					  "name": "Shooting photo"
+					}
 				  },
 				  {
 					"@type": "Offer",
@@ -99,7 +103,7 @@
 </head>
 
 <body>
-	<header class="top-header" itemscope itemtype="https://schema.org/LocalBusiness">
+	<header class="top-header">
 		<h1 class="name">Nina Carducci</h1>
 		<div class="nav">
 			<ul>
@@ -115,7 +119,7 @@
 	</header>
 	<div id="header">
 
-		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" itemscope itemtype="https://schema.org/ImageGallery">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
 					aria-current="true" aria-label="Slide 1"></button>
@@ -153,7 +157,7 @@
 			</button>
 		</div>
 	</div>
-	<div id="about" itemscope itemtype="https://schema.org/Person">
+	<div id="about">
 		<div class="picture left">
 			<img loading="lazy" fetchpriority="low" src="./assets/images/nina.webp" width="1000" height="997"
 				alt="Image de nina" />
@@ -171,7 +175,7 @@
 				tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
 	</div>
-	<div id="gallery" itemscope itemtype="https://schema.org/ImageGallery">
+	<div id="gallery">
 		<h2 class="title">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery">
@@ -204,7 +208,7 @@
 					height="612" alt="Une femme rie avec ses collègues" />
 			</div>
 		</div>
-		<div class="quote" itemscope itemtype="https://schema.org/Quotation">
+		<div class="quote">
 			<figure>
 				<blockquote>
 					<h2 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
@@ -216,7 +220,7 @@
 			</figure>
 		</div>
 	</div>
-	<div id="services" itemscope itemtype="https://schema.org/Service">
+	<div id="services">
 		<h2 class="title">Mes services</h2>
 		<div class="container">
 			<div class="service">
@@ -264,8 +268,8 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-	<footer itemscope itemtype="https://schema.org/LocalBusiness">
-		<div id="contact" itemscope itemtype="https://schema.org/LocalBusiness">
+	<footer>
+		<div id="contact">
 			<div class="container">
 				<div class="form-container">
 					<section class="contact-info">
